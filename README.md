@@ -3,7 +3,7 @@
 ## United States Food Imports Tableau
 
 ## Group 2:
-Yonatan Woldetenssaie - 811294688 - 
+Yonatan Woldetenssaie - 811294688 - https://github.com/YonatanWoldetenssaie/MIST4610_Project_2/blob/main/README.md
 
 Sahil Panchal - 811952439 -  
 
