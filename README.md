@@ -9,7 +9,7 @@ Sahil Panchal - 811952439 -
 
 Dru Hunt - 811481261 -  https://github.com/lwh12347/4610-Tableau-Project/blob/main/README.md   
 
-Kent Tran - 811696100 -   
+Kent Tran - 811696100 - https://github.com/Kenttra/MIST-4610-Project-2/blob/main/README.md
 
 Shaan Bhagat - 811542876 - https://github.com/Shaan-Bhagat/MIST-4610-Project2/blob/main/README.md
 
