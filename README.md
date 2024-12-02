@@ -5,7 +5,7 @@
 ## Group 2:
 Yonatan Woldetenssaie - 811294688 - https://github.com/YonatanWoldetenssaie/MIST4610_Project_2/blob/main/README.md
 
-Sahil Panchal - 811952439 -  
+Sahil Panchal - 811952439 - https://github.com/SahilPnc/MIST-4610-Project-2/blob/main/README.md
 
 Dru Hunt - 811481261 -  https://github.com/lwh12347/4610-Tableau-Project/blob/main/README.md   
 
