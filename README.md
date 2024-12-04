@@ -13,6 +13,7 @@ Kent Tran - 811696100 - https://github.com/Kenttra/MIST-4610-Project-2/blob/main
 
 Shaan Bhagat - 811542876 - https://github.com/Shaan-Bhagat/MIST-4610-Project2/blob/main/README.md
 
+
 ### Project Description
 According to the USDA, the U.S. Food Imports dataset provides an annual summary of the value and volume of food and beverage imports into the United States. It reflects U.S. consumer preferences for diverse, high-quality, and convenient foods, driven by increasing wealth, ethnic diversity, and demand for tropical and gourmet products. The dataset includes import values by food group, origin, and HS (Harmonized System) codes, with over 20 years of data for tracking long-term trends. Data is sourced from the U.S. Department of Commerce, Bureau of the Census.
 The columns in the data set represent product categories, import volume, country identifiers, and financial metrics such as inflation. The data types present in the set include both categorical values and numerical values. The dataset is well-rounded, providing a diverse set of attributes that allow for a comprehensive analysis of international food imports. 
@@ -20,29 +21,27 @@ We chose to utilize this dataset because of its relevance to understanding econo
 
 ### Data Manipulation
 In order to prepare the data for analysis, we created relationships between relevant tables for each of our questions.  Before using tableau to visualize the data it was necessary to condense the data since the set was so expansive. We did this by getting rid of redundant data in the excel pivot tables.
-
 <img width="764" alt="Tableau #1" src="https://github.com/user-attachments/assets/6ca72876-e251-4f6e-bf4c-60b363daa200">
-
 
 
 ### Question 1: What have been the key trends in United States food import values over the past 5 years, and do the trends differ between food types?
 Relevance: The purpose of this question is to illustrate shifts in consumer demand since 2019. By analyzing trends across different food types, it reveals patterns in market dynamics, such as increasing reliance on certain products. It also shows which countries have the strongest trade relationships with the United States in regards to certain food.
 
 #### Grains
-![Screenshot 2024-11-28 210701](https://github.com/user-attachments/assets/f8ad9137-0a55-48b3-ab2d-0ec2ae495a97)
-Over the past five years, the United States has experienced a steady increase in grain imports, with 2022 showing the most significant year-over-year growth. This surge was primarily driven by imports from Canada, which saw a more than 25% increase compared to 2021. The data highlights the U.S.'s heavy reliance on North American countries, particularly Canada and Mexico, for its grain supply, underscoring the importance of regional trade partnerships in meeting domestic demand.
+![Screenshot 2024-11-28 210701](https://github.com/SahilPnc/MIST-4610-Project-2/blob/main/Grains%20Graph.jpg)
+Over the past five years, the United States has seen consistent, steady growth in its grain imports, with 2022 marking the most significant year increase. This growth is primarily driven by imports from Canada, which saw over a 25% increase compared to 2021. Mexico also plays a key role as a supplier, highlighting the U.S.'s reliance on NATO trade partnerships to meet domestic grain demand. The consistent rise in grain imports reflects one or either factors of increasing U.S. consumption or shifts in agricultural production within the country.
 
 #### Meats
-![Screenshot 2024-11-28 213144](https://github.com/user-attachments/assets/9f489e98-f728-4b82-85c8-fd11c814a25c)
-Over the past five years the US has experienced a bell curve in the amount of meats imported, with 2022 yielding higher meat imports than 2023. We see the expected high amounts of trade with North American countries, but there exists an unexpected amount of imports from Oceanic countries such as Australia and New Zealand. 
+![Screenshot 2024-11-28 213144](https://github.com/SahilPnc/MIST-4610-Project-2/blob/main/Meat%20Graph.jpg)
+In the meat category, U.S. import trends have followed a bell curve, peaking in 2022 and declining slightly in 2023. While the high levels of trade with Canada and Mexico are expected due to their geographic proximity, a notable share of imports also come from Australia and New Zealand, showcasing the global nature of the meat trade. This contribution from Oceania highlights their reputation for high-quality meat exports. The decline in 2023 could be attributed to changing domestic production levels, shifts in demand, or the influence of trade policies, showcasing the volatility of the meat market compared to other food categories.
 
 #### Dairy
-![Screenshot 2024-11-28 212846](https://github.com/user-attachments/assets/475ddcc3-569d-4e4e-8b05-b2c1f7d33875)
-Over the past five years the US has experienced a massive increase in the amount of dairy imported, with there being an over 40% increase in importation since 2020. While there is no standout country that trade these goods to us (Italy lands the top spot), a diverse array of countries engage in this trade unlike the other two products. 
+![Screenshot 2024-11-28 212846](https://github.com/SahilPnc/MIST-4610-Project-2/blob/main/Dairy%20Graph.jpg)
+Dairy imports have experienced shocking growth, with a 40% increase since 2020, reflecting a surge in U.S. demand for foreign dairy products. Unlike grains and meats, which are dominated by North American trade, dairy imports are sourced from a diverse range of countries, with Italy emerging as the largest single contributor. This diversity indicates a broader global trade network for dairy, driven by consumer preferences for specialty/luxury products and an increasing reliance on international suppliers. The rapid growth in dairy imports since 2020 suggests evolving consumer tastes and changes in supply chain dynamics.
 
 
 #### Question 1 Conclusion
-Over the past five years, U.S. imports of grains, meats, and dairy have demonstrated distinct patterns shaped by varying global and domestic factors. Grain imports have shown consistent growth, with 2022 standing out as the year of the largest surge due to a 25% increase in imports from Canada, underscoring the U.S.'s reliance on its North American trade partners for agricultural staples. Meat imports, however, have been more volatile, peaking in 2022 before declining in 2023, likely influenced by inflationary pressures and shifting consumer preferences. Interestingly, imports from Oceanic countries like Australia and New Zealand have played a more significant role in the meat trade, contrasting with the predominantly North American focus of grain imports. Dairy imports tell a different story, with an impressive 40% growth since 2020, driven by increasing demand for diverse products and a broader array of trading partners. Unlike grains and meats, dairy imports are less concentrated, with Italy as a top supplier and significant contributions from various other countries, reflecting the U.S.’s appetite for specialty and high-quality dairy products.
+Overall, U.S. food import patterns over the past five years reveal key trends in consumer demand and trade partnerships. Grains and dairy imports have shown consistent growth, while meat imports have fluctuated, reflecting volatility in that market when stacked up against the other two. North America remains a dominant trading partner for grains and meats, whereas dairy imports highlight a more globalized trade network. These trends underscore the importance of regional and international trade relationships in meeting U.S. food demands and adapting to shifting market dynamics.
 
 ### Question 2: Which foods suffered the most from price inflation in 2023? Are they the same foods that experienced inflation in 2022?
 Relevance: This question addresses the economic impact of price inflation on U.S. food imports, providing insights into how market conditions, supply chain disruptions, and trade policies may have affected food prices in the past few years. By identifying the foods that fluctuate in price, consumers can better understand the volatility in the food market and its implications for food accessibility.
